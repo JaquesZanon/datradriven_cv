@@ -1,17 +1,17 @@
 devtools::install_github("nstrayer/datadrivencv")
 devtools::install_github('mitchelloharawild/icons')
 
-library(googlesheets4)
-gs4_auth_configure(api_key = "AIzaSyCRbl72V_oa77JMDhdmfaNXSQPuzjb3YL4")
-read_sheet("https://docs.google.com/spreadsheets/d/1uWsN_sXHwTmbgmNGUAy6FSFs4kEFJ_6li6SFR5UsutU/edit#gid=0")
+#library(googlesheets4)
+#gs4_auth_configure(api_key = "AIzaSyCRbl72V_oa77JMDhdmfaNXSQPuzjb3YL4")
+#read_sheet("https://docs.google.com/spreadsheets/d/1uWsN_sXHwTmbgmNGUAy6FSFs4kEFJ_6li6SFR5UsutU/edit#gid=0")
 
-install.packages(googlesheets)
-library(googlesheets)
-gs_auth(new_user = TRUE)
-gs_ls()
+#install.packages(googlesheets)
+#library(googlesheets)
+#gs_auth(new_user = TRUE)
+#gs_ls()
 
 
-
+#downloading the raw zip package
 library(devtools)
 install_local("C:/Users/jaque/Desktop/datadrivencv-master.zip")
 library("datadrivencv")
