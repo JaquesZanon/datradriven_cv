@@ -2,7 +2,7 @@ devtools::install_github("nstrayer/datadrivencv")
 devtools::install_github('mitchelloharawild/icons')
 
 #library(googlesheets4)
-#gs4_auth_configure(api_key = "AIzaSyCRbl72V_oa77JMDhdmfaNXSQPuzjb3YL4")
+#gs4_auth_configure(api_key = ".....")
 #read_sheet("https://docs.google.com/spreadsheets/d/1uWsN_sXHwTmbgmNGUAy6FSFs4kEFJ_6li6SFR5UsutU/edit#gid=0")
 
 #install.packages(googlesheets)
